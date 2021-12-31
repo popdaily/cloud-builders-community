@@ -1,7 +1,7 @@
 FROM gcr.io/cloud-builders/gcloud
 
 # overridden in cloudbuild.yaml
-ARG VER=v3.8.1
+ARG VER=v4.4.1
 ENV VERSION ${VER}
 
 COPY kustomize.bash /builder/kustomize.bash
